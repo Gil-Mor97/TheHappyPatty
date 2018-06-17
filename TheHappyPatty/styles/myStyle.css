@@ -1,0 +1,1270 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+
+body {
+    direction: rtl;
+    background-color: #a8c96c;
+    /*background: url(../images/homepage/black-and-white-dark-marble-908283.jpg);*/
+    background: url(../images/MARBLE_BG.jpeg) fixed no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#container {
+    height: auto;
+    background: url(../images/homepage/Homepage_Background.png);
+    background-size: 100%;
+    position: absolute;
+    /* top: 25px; */
+    /*zoom: 158%;
+    overflow-x: auto;*/
+    left: 50%;
+    width: 960px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.notActive {
+    cursor: not-allowed;
+}
+
+
+p {
+    padding: 1%;
+}
+
+
+article {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/*===============================================================================================================*/
+/*כפתור דילוג לתוכן*/
+
+#skip {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+    #skip a {
+        position: absolute;
+        top: -20px;
+    }
+
+        #skip a:focus, skip a:focus-within, #skip a:active {
+            position: relative;
+            left: 0;
+            z-index: 9;
+            margin: 0 auto;
+            margin-top: 2%;
+            width: auto;
+            padding: 30px 45px;
+            width: 75%;
+            height: auto;
+            text-align: center;
+            text-decoration: underline;
+            font-family: 'Rubik';
+            font-size: 150%;
+            font-weight: 700;
+            color: #1f00ff;
+            background: #ffffff;
+            border: 1px dotted #ffb4db;
+            top: 50px;
+        }
+
+/*===============================================================================================================*/
+/*תפריטים*/
+/*תפריט ראשי*/
+#homeLink {
+    margin-top: 0%;
+    width: 18%;
+    margin-right: 2%;
+    position: relative;
+    z-index: 3;
+}
+
+#nav1 {
+    padding-top: 2%;
+    margin-right: 9%;
+    margin-top: -17%;
+    z-index: 2;
+    position: relative;
+}
+
+}
+
+#nav1 ul {
+    list-style: none;
+    /*רוחב ומרכוז התפריט לאמצע*/
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+
+    #nav1 ul li {
+        display: inline-block;
+        float: right;
+        padding-top: 2%
+    }
+
+#nav1 > ul > li > a {
+    border-left: 2px solid black;
+}
+
+#nav1 > ul > li:last-child > a {
+    border-left: 0px solid black;
+}
+
+#nav1 ul li a {
+    color: black;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 100%;
+    display: block;
+    background-color: #a8c86d;
+    text-decoration: none;
+    text-align: center;
+    width: 130px;
+    height: 20px;
+    padding: 2% 0 2% 0;
+}
+
+    #nav1 ul li a:hover {
+        background-color: #3097D2;
+    }
+
+#nav1 > ul > li:first-child > a:hover,
+#nav1 > ul > li:first-child > a:focus,
+#nav1 > ul > li:first-child > a:focus-within {
+    background-color: #8bc03fab;
+}
+
+#nav1 ul li a:focus {
+    background-color: #8bc03fab;
+}
+
+#nav1 ul li a:focus-within {
+    background-color: #3097D2;
+}
+
+#nav1 ul li a:active {
+    background-color: green;
+}
+
+
+#nav1 ul li ul {
+    display: none;
+    position: absolute;
+}
+
+#nav1 ul li:hover ul,
+#nav1 ul li:focus ul,
+#nav1 ul li:focus-within ul {
+    display: block;
+    width: 120px;
+}
+
+#nav1 ul ul li ul {
+    display: none;
+    position: fixed;
+    right: 500%;
+}
+
+#nav1 ul ul li:hover ul,
+#nav1 ul ul li:focus ul,
+#nav1 ul ul li:focus-within ul {
+    position: absolute;
+    display: inline-block;
+    right: 100%;
+    font-size: 90%;
+    padding-right: 10%;
+    margin-top: -24%
+}
+
+    #nav1 ul li:hover ul a {
+        border-top: 1px solid black;
+    }
+
+/*footer*/
+
+#footer_decoration {
+    background: url(../images/homepage/Homepage_Background_Footer.png) no-repeat;
+    width: 100%;
+    height: 150px;
+    background-size: 100%;
+    background-position-y: bottom;
+    margin-top: -3%;
+}
+
+
+#footer1 {
+    width: 100%;
+}
+
+    #footer1 ul {
+        list-style: none;
+        /*רוחב ומרכוז התפריט לאמצע*/
+        margin: 0 auto;
+        padding-bottom: 3%;
+        background-color: #8bc13fb0;
+        width: 100%;
+    }
+
+        #footer1 ul li {
+            display: inline-block;
+            float: right;
+            padding: 0 10% 0 10%;
+        }
+
+            #footer1 ul li a {
+                color: black;
+                font-family: 'Rubik';
+                font-weight: bold;
+                font-size: medium;
+                display: block;
+                background-color: #8bc13f00;
+                text-decoration: none;
+                text-align: center;
+                width: 120px;
+                height: 23px;
+                Padding-top: 4.5%;
+            }
+
+                #footer1 ul li a:hover,
+                #footer1 ul li a:focus,
+                #footer1 ul li a:focus-within {
+                    background-color: #3097D2;
+                }
+
+
+/*===============================================================================================================*/
+
+/*דף הבית*/
+
+/*תצוגת בורגרים*/
+
+
+#tilt1 {
+    /*הטייה*/
+    -moz-transform: rotate(6.5deg);
+    -webkit-transform: rotate(6.5deg);
+    -o-transform: rotate(6.5deg);
+    -ms-transform: rotate(6.5deg);
+    transform: rotate(6.5deg);
+    margin-top: -3%;
+    margin-bottom: 3%;
+    /*הגדרת הרקע*/
+    background: url(../images/homepage/Homepage_V.png) no-repeat;
+    background-size: 6%;
+    background-position: 87.5%  ;
+    /*טקסט*/
+    text-align: center;
+    font-family: 'Rubik';
+    font-weight: bold;
+    font-size: 255%;
+    line-height: 150%;
+}
+
+    .burgersDisplay img {
+        width: 24.5%;
+        height: 100%;
+    }
+
+    .burgersDisplay li {
+        list-style-type: none;
+        display: inline;
+        padding: 1.5%;
+        margin-right: 7%;
+        margin-left: 5%;
+    }
+
+#bd_firstRow {
+    margin-right: 20%;
+    margin-bottom: 2%;
+}
+
+    #bd_firstRow img {
+        width: 32%;
+        padding-left: 4%;
+    }
+  }
+
+.burgerH, .burgerSpan {
+    display: none;
+}
+
+
+
+/*tooltip*/
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 0px;
+}
+
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: #a9d073;
+        color: #000000;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        top: 75%;
+        left: 50%;
+        font-size: 120%;
+        font-family: 'Rubik';
+        font-weight: 500;
+        margin-left: -60px;
+    }
+
+        .tooltip .tooltiptext::after {
+            content: "";
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            font-family: 'Rubik';
+            border-color: transparent transparent #a9d073 transparent;
+        }
+
+    .tooltip:hover .tooltiptext,
+    .tooltip:focus .tooltiptext,
+    .tooltip:focus-within .tooltiptext {
+        visibility: visible;
+    }
+
+#seitanTooltip {
+    margin-left: -12%;
+}
+
+/*באנרים*/
+#banner1 {
+    background: url(../images/homepage/Homepage_Banner1.png) no-repeat;
+    width: 100%;
+    height: 420px;
+    background-size: 100%;
+    margin-top: -1%;
+}
+
+
+    #banner1 div {
+        background: url(../images/homepage/Homepage_TitleStsain.png) no-repeat;
+        -moz-transform: rotate(9deg);
+        -webkit-transform: rotate(9deg);
+        -o-transform: rotate(9deg);
+        -ms-transform: rotate(9deg);
+        transform: rotate(9deg);
+        text-align: center;
+        height: 100%;
+        background-size: 53%;
+        background-position: 91%;
+        margin-bottom: -30%;
+        position: relative;
+        z-index: 1;
+    }
+
+    #banner1 h2 {
+        padding: 13%;
+        margin-left: 50%;
+    }
+
+
+    #banner1 span:first-child {
+        color: white;
+        font-size: 290%;
+        display: block;
+        font-family: 'Rubik';
+        font-weight: 700;
+        margin-right: -69%;
+        margin-top: -11%;
+    }
+
+    #banner1 span:last-child {
+        color: #8bc13f;
+        font-size: 712%;
+        display: block;
+        font-family: 'Rubik';
+        font-weight: 700;
+        margin-right: 5%;
+        margin-top: -19%;
+    }
+
+#banner2 {
+    background: url(../images/homepage/Homepage_Banner2.png) no-repeat;
+    width: 100%;
+    height: 450px;
+    background-size: 100%;
+}
+
+
+/*סקשן תחתון*/
+#lowerSection {
+    text-align: center;
+}
+
+    #lowerSection h2 {
+        font-size: 300%;
+        font-family: 'Rubik';
+        font-weight: bold;
+        background: url(../images/homepage/low-nav/Homepage_V.png) no-repeat;
+        background-size: 5%;
+        background-position: 74%;
+        margin-top: -3%;
+    }
+
+    #lowerSection p {
+        font-size: 200%;
+        font-family: 'Rubik';
+        font-weight: 500;
+        word-spacing: 3px;
+    }
+
+/*תפריט תחתון*/
+
+#lowerNav {
+}
+
+    #lowerNav img {
+        width: 77%;
+        position: relative;
+        right: -2%;
+    }
+
+    #lowerNav td {
+        text-align: center;
+        font-family: 'Calibri';
+        font-weight: bold;
+        text-decoration: none;
+        position: relative;
+        top: -20px;
+    }
+
+        #lowerNav td a {
+            text-align: center;
+            font-family: 'Calibri';
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 175%;
+            color: black;
+            position: relative;
+            right:
+        }
+
+    #lowerNav tr:first-child td {
+        background: url(../images/homepage/low-nav/Homepage_BurgerStain.png) no-repeat;
+        background-size: 78%;
+        background-position-y: bottom;
+        background-position-x: center;
+        width: 15%;
+    }
+
+
+/*===============================================================================================================*/
+/*דף מפת האתר*/
+
+#mapa h1 {
+    background: url(../images/homepage/Homepage_TitleStsain.png) no-repeat;
+    background-size: 39%;
+    height: 150px;
+    text-align: center;
+    margin-top: 8%;
+    background-position-x: center;
+    color: #8bba46;
+    font-size: 400%;
+    padding-top: 2%;
+    font-family: 'Rubik';
+}
+
+/*מפת האתר*/
+
+#siteMap {
+    margin: 0 5% 0 5%;
+    background-color: #a8c86d91;
+}
+
+    #siteMap a
+    {
+        color: black;
+    }
+
+    #siteMap > li {
+        display: inline-grid;
+        padding: 1%;
+        font-family: 'Rubik';
+        font-weight: 700;
+        line-height: 1.25;
+    }
+
+    #siteMap > ul {
+        display: inline;
+    }
+
+    #siteMap > li > ul > li {
+        padding: 4%;
+        font-family: 'Rubik';
+        font-weight: 500;
+    }
+
+        #siteMap > li > ul > li li {
+            font-family: 'Rubik';
+            font-weight: 400;
+        }
+
+
+/*===============================================================================================================*/
+/*דף אודות*/
+/*כותרת*/
+#odotHead {
+    background: url(../images/homepage/Homepage_TitleStsain.png) no-repeat;
+    background-size: 39%;
+    height: 150px;
+    text-align: center;
+    margin-top: 8%;
+    background-position-x: center;
+}
+
+    #odotHead h1 {
+        color: #8bba46;
+        font-size: 450%;
+        margin-right: -6%;
+        margin-bottom: -1%;
+        font-family: 'Rubik';
+        font-weight: 700;
+    }
+
+    #odotHead span {
+        color: white;
+        font-size: 180%;
+        font-family: 'Rubik';
+        font-weight: 600;
+        margin-right: 2%;
+    }
+
+
+/*תוכן אודות*/
+
+#odotContent {
+    margin: 0 2% 0 2%;
+    font-family: 'Rubik';
+    font-weight: 600;
+}
+
+    #odotContent section {
+        margin: 3% 0 3% 0;
+    }
+
+    #odotContent p {
+        font-size: 120%;
+        font-family: 'Rubik';
+    }
+
+
+
+    #odotContent h2 {
+        font-weight: 800;
+        font-size: 150%;
+        font-family: 'Rubik';
+        margin-bottom: 0.5%;
+    }
+
+    #odotContent a {
+        font-size: 120%;
+        font-family: 'Rubik';
+        font-weight: 600;
+    }
+
+
+
+    /*טבלת חברי צוות*/
+
+    #odotContent table tr:first-child td {
+        background: url(../images/homepage/low-nav/Homepage_BurgerStain.png) no-repeat;
+        background-size: 100%;
+        background-position: center;
+    }
+
+    #odotContent table {
+        margin-right: 30%;
+        margin-left: 25%;
+    }
+
+        #odotContent table td {
+            padding: 2%;
+            text-align: center;
+            font-family: 'Rubik';
+            font-weight: 700;
+        }
+
+        #odotContent table img {
+            height: 120px;
+            width: 120px;
+            padding: 10%;
+            padding-bottom: 0px;
+            margin-bottom: -5%;
+        }
+
+    /*רשימת קורסים*/
+    #odotContent li {
+        font-size: 120%;
+        font-family: 'Rubik';
+        list-style: disc;
+        margin-right: 2%;
+        padding: 0.25%
+    }
+
+    #odotContent ul {
+        padding: 1%;
+    }
+
+    /*קישור לHIT*/
+
+    #odotContent #telemLink {
+        margin: 0 30% 0 30%;
+    }
+
+        #odotContent #telemLink h2 {
+            padding-bottom: 5%;
+        }
+
+        #odotContent #telemLink img {
+            width: 80%;
+            height: 100%;
+            margin: 0 10% 0 10%;
+        }
+
+
+/*===============================================================================================================*/
+/*דף צור קשר*/
+
+#contactUs {
+    margin: 0 2% 0 2%;
+}
+
+    #contactUs h1 {
+        background: url(../images/homepage/Homepage_TitleStsain.png) no-repeat;
+        background-size: 39%;
+        height: 150px;
+        text-align: center;
+        margin-top: 8%;
+        background-position-x: center;
+        color: #8bba46;
+        font-size: 400%;
+        padding-top: 2%;
+        font-family: 'Rubik';
+    }
+
+    #contactUs form {
+        margin: 2.5% 40% 5% 40%;
+    }
+
+        #contactUs form span {
+            margin: 10% 0 2.5% 0;
+            display: block;
+            font-family: 'Rubik';
+            font-weight: 600;
+            font-size: 105%;
+        }
+
+        #contactUs form input {
+            text-align: center;
+            font-family: 'Rubik';
+            font-weight: 400;
+        }
+
+        #contactUs form > input {
+            font-weight: 500;
+            margin: 0 30% 0 30%;
+        }
+
+        #contactUs form label {
+            display: block;
+        }
+
+
+/*===============================================================================================================*/
+/*דף קציצות*/
+/*כותרת*/
+
+#pattyHead {
+    background: url(../images/homepage/Homepage_TitleStsain.png) no-repeat;
+    background-size: 45%;
+    height: 210px;
+    text-align: center;
+    margin-top: 8%;
+    background-position-x: center;
+}
+
+
+    #pattyHead h1 {
+        color: #8bba46;
+        font-size: 560%;
+        margin-right: -6%;
+        margin-bottom: -1%;
+        font-family: 'Rubik';
+        font-weight: 700;
+    }
+
+    #pattyHead span {
+        color: white;
+        font-size: 230%;
+        font-family: 'Rubik';
+        font-weight: 600;
+        margin-right: 10%;
+        position: relative;
+        top: -7px;
+    }
+
+/*תוכן*/
+
+.pattyLobbyTable {
+    margin-bottom: 10%;
+    display: inline-block;
+    height: 1100px;
+    margin-right: 1.5%;
+    position: relative;
+    }
+
+    .pattyLobbyTable th {
+        font-family: 'Rubik';
+        text-align: center;
+        padding-top: 9%;
+        font-size: 220%;
+        /* width: 0%; */
+        background: url(../images/pattyLobby/THBackground.png) no-repeat;
+        background-position-x: center;
+        background-size: 74%;
+    }
+
+    .pattyLobbyTable td {
+        margin: 2% 0% 2% 0%;
+        width: 300px;
+        display: inline-block;
+    }
+
+        .pattyLobbyTable td:first-child {
+            padding: 0%;
+        }
+
+
+        .pattyLobbyTable td img {
+            width: 210px;
+            height: 180px;
+            display: block;
+            margin: 10% 14% 0 30%;
+        }
+
+
+#pattyLobbyTable td span {
+    text-align: center;
+    display: block;
+    padding-top: 2%;
+}
+
+.lobbyBurgerDesc {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 130%;
+    text-align: center;
+    display: block;
+}
+
+
+/*===============================================================================================================*/
+/*דף תוספות*/
+/*כותרת*/
+
+#sideHead {
+    background: url(../images/homepage/Homepage_TitleStsain.png) no-repeat;
+    background-size: 45%;
+    height: 190px;
+    text-align: center;
+    margin-top: 8%;
+    background-position-x: center;
+    margin-bottom: -40px;
+}
+
+
+    #sideHead h1 {
+        color: #8bba46;
+        font-size: 560%;
+        margin-right: -6%;
+        margin-bottom: -1%;
+        font-family: 'Rubik';
+        font-weight: 700;
+    }
+
+    #sideHead span {
+        color: white;
+        font-size: 240%;
+        font-family: 'Rubik';
+        font-weight: 600;
+        margin-right: 14%;
+        position: relative;
+        top: -7px;
+    }
+
+
+/*תוכן*/
+
+
+#sideDishesContent {
+    margin-bottom: 5%;
+}
+
+    #sideDishesContent section:first-child h2 {
+        margin-left: -47.5%;
+        float: left;
+    }
+
+    #sideDishesContent section:last-child h2 {
+        margin-right: 2%;
+        margin-left: -45%;
+        float: right;
+        position: relative;
+        top: -45px;
+    }
+
+    #sideDishesContent h2 img {
+        width: 22%;
+        height: 100%;
+        position: relative;
+        top: 30px;
+    }
+
+    #sideDishesContent section {
+        margin-bottom: 5%;
+    }
+
+        #sideDishesContent section table img {
+            margin-top: 10%;
+        }
+
+        #sideDishesContent section:first-child table img {
+            height: 130px;
+            width: 200px;
+        }
+
+        #sideDishesContent section:first-child table {
+            margin-right: 5%;
+        }
+
+            #sideDishesContent section:first-child table td:nth-child(even) img,
+            #sideDishesContent section:first-child table td:nth-child(even) h3,
+            #sideDishesContent section:first-child table td:nth-child(even) span {
+                margin-right: -15%;
+            }
+
+
+        #sideDishesContent section:last-child table img {
+            height: 130px;
+            width: 200px;
+        }
+
+        #sideDishesContent section:last-child table {
+            width: 70%;
+            position: relative;
+            top: -30px;
+        }
+
+
+        #sideDishesContent section:first-child table {
+            width: 80%;
+            background: url(../images/SideDishesLobby/ExtraLobi_Bgstein-65.png) no-repeat;
+            background-position-y: -160%;
+            background-position-x: 50%;
+            background-size: 95%;
+        }
+
+        #sideDishesContent section:last-child table {
+            background: url(../images/SideDishesLobby/ExtraLobi_Bgstein-66.png) no-repeat;
+            background-size: 750px;
+            background-position-y: -60%;
+        }
+
+        #sideDishesContent section table td {
+            text-align: center;
+        }
+
+    #sideDishesContent table h3, #sideDishesContent table span {
+        font-family: 'Rubik';
+    }
+
+    #sideDishesContent section table td h3 {
+        margin-top: 2%;
+        font-weight: 700;
+        font-size: 150%
+    }
+
+    #sideDishesContent section table td span {
+        font-weight: 600;
+        font-size: 120%;
+    }
+
+    #sideDishesContent section:first-child table td {
+        height: 20%;
+        width: 50%;
+    }
+
+    #sideDishesContent section:last-child table {
+        margin-left: 20%;
+    }
+
+.NaturalStyleLink {
+    color: black;
+    text-decoration: none;
+    cursor: not-allowed;
+}
+
+#potatoBallsLink {
+    cursor: pointer;
+}
+
+
+#middleSeperator {
+    background: url(../images/SideDishesLobby/ExtraLobi_Middle.png) no-repeat;
+    width: 97%;
+    height: 85px;
+    background-size: 100%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+
+/*===============================================================================================================*/
+/*דף OFFBURGER*/
+/*כותרת*/
+
+#offBurgerHead {
+    background: url(../images/OFFBurger/Res_Title.png) no-repeat;
+    background-size: 42%;
+    height: 150px;
+    text-align: center;
+    margin-top: 9%;
+    padding-top: 4%;
+    background-position-x: 41%;
+    background-position-y: -2px;
+}
+
+
+    #offBurgerHead h1 {
+        color: black;
+        font-size: 450%;
+        font-family: 'Rubik';
+        font-weight: 500;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    #offBurgerHead span {
+        color: black;
+        font-size: 150%;
+        font-family: 'Rubik';
+        font-weight: 600;
+    }
+
+
+/*תוכן*/
+
+#recipe-pdf {
+    margin: 0% 85% -7% 0;
+    width: 9%;
+}
+
+/*מרכיבים*/
+#OFFburgerContent h2, #OFFburgerContent h3 {
+    font-family: 'Rubik';
+}
+
+#OFFburgerContent li {
+    list-style-type: none;
+}
+
+#OFFburgerContent figure img {
+    width: 440px;
+    margin-top: -40%;
+    margin-right: 480px;
+}
+
+#OFFburgerContent #cookTime {
+    margin-right: 52%;
+    margin-top: -2%;
+    font-family: 'Rubik';
+    font-weight: 700;
+}
+
+#OFFburgerContent #difficulty {
+    margin-right: 70%;
+    margin-top: -7.5%;
+    font-family: 'Rubik';
+    font-weight: 700;
+}
+
+#OFFburgerContent #cookTime img {
+    width: 30px;
+    margin-right: 15px;
+    display: block;
+}
+
+#OFFburgerContent #difficulty img {
+    width: 100px;
+    margin-top: 2%;
+    margin-right: -15px;
+    display: block;
+}
+
+#OFFburger-ingridients {
+    background: url(../images/OFFBurger/Res_IngridientsBG.png) no-repeat;
+    background-size: 100%;
+    width: 70%;
+    height: 400px;
+    background-position-x: 40px;
+}
+
+    #OFFburger-ingridients h2 {
+        padding-top: 2%;
+        margin-right: 8%;
+        font-size: 180%;
+    }
+
+    #OFFburger-ingridients h3 {
+        font-size: 150%;
+        margin: 0.5% 0 0% 0;
+    }
+
+
+    #OFFburger-ingridients section {
+        margin-right: 8%;
+        margin-top: -1%;
+    }
+
+        #OFFburger-ingridients section label {
+            font-family: 'Rubik';
+            font-size: 110%;
+        }
+
+    #OFFburger-ingridients li {
+        padding: 0.75% 0 0.75% 0;
+    }
+
+    #OFFburger-ingridients span {
+        font-size: 80%;
+        font-family: 'Rubik';
+        margin-right: 10%;
+    }
+
+
+/*אופן ההכנה*/
+#OFFburger-making {
+    margin-top: 5%;
+    background: url(../images/OFFBurger/Res_RecBG.png) no-repeat;
+    background-size: 99%;
+    width: 100%;
+    height: 590px;
+}
+
+    #OFFburger-making h2 {
+        font-size: 160%;
+        margin-bottom: 1%;
+        margin-right: 2%;
+    }
+
+    #OFFburger-making section {
+        margin-right: 5%;
+        padding-top: 5%;
+    }
+
+    #OFFburger-making li {
+        list-style: unset;
+        font-family: 'Rubik';
+        padding: 0.5% 0 0.5% 0;
+        margin-right: 4.5%;
+        margin-left: 10%;
+        font-weight: 500;
+        font-size: 115%;
+        letter-spacing: 0.5px;
+        line-height: 1.75;
+    }
+
+        #OFFburger-making li b {
+            font-weight: 600;
+            font-family: 'Rubik';
+        }
+
+
+
+/*===============================================================================================================*/
+/*דף כדורי פירה*/
+/*כותרת*/
+
+#potatoBallHead {
+    background: url(../images/OFFBurger/Res_Title.png) no-repeat;
+    background-size: 42%;
+    height: 150px;
+    text-align: center;
+    margin-top: 9%;
+    padding-top: 4%;
+    background-position-x: 41%;
+    background-position-y: -2px;
+}
+
+
+    #potatoBallHead h1 {
+        color: black;
+        font-size: 450%;
+        font-family: 'Rubik';
+        font-weight: 500;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    #potatoBallHead span {
+        color: black;
+        font-size: 150%;
+        font-family: 'Rubik';
+        font-weight: 600;
+    }
+
+
+/*תוכן*/
+
+/*מרכיבים*/
+
+
+
+#potatoBallContent h2, #potatoBallContent h3 {
+    font-family: 'Rubik';
+}
+
+#potatoBallContent li {
+    list-style-type: none;
+}
+
+#potatoBallContent figure img {
+    width: 530px;
+    margin-top: -30%;
+    margin-right: 445px;
+}
+
+#potatoBallContent #cookTime {
+    margin-right: 52%;
+    margin-top: -10%;
+    font-family: 'Rubik';
+    font-weight: 700;
+}
+
+#potatoBallContent #difficulty {
+    margin-right: 70%;
+    margin-top: -7.5%;
+    font-family: 'Rubik';
+    font-weight: 700;
+}
+
+#potatoBallContent #cookTime img {
+    width: 30px;
+    margin-right: 15px;
+    display: block;
+    margin-top: 3%;
+}
+
+#potatoBallContent #difficulty img {
+    width: 100px;
+    margin-top: 2%;
+    margin-right: -15px;
+    display: block;
+}
+
+#potatoBall-ingridients {
+    background: url(../images/OFFBurger/Res_IngridientsBG.png) no-repeat;
+    background-size: 100%;
+    width: 70%;
+    height: 400px;
+    background-position-x: 40px;
+}
+
+    #potatoBall-ingridients h2 {
+        padding-top: 10%;
+        margin-right: 8%;
+        margin-bottom: 3%;
+        font-size: 180%;
+    }
+
+    #potatoBall-ingridients h3 {
+        font-size: 150%;
+        margin: 1% 0 1% 0;
+    }
+
+
+    #potatoBall-ingridients section {
+        margin-right: 8%;
+        margin-top: 3%;
+        display: inline-grid;
+    }
+
+        #potatoBall-ingridients section label {
+            font-family: 'Rubik';
+            font-size: 110%;
+        }
+
+    #potatoBall-ingridients li {
+        padding: 0.75% 0 0.75% 0;
+    }
+
+    #potatoBall-ingridients span {
+        font-size: 90%;
+        font-family: 'Rubik';
+        margin-right: 10%;
+        padding-top: 1%;
+        display: block;
+    }
+
+/*אופן ההכנה*/
+#potatoBall-making {
+    margin-top: 5%;
+    background: url(../images/OFFBurger/Res_RecBG.png) no-repeat;
+    background-size: 99%;
+    width: 100%;
+    height: 590px;
+}
+
+    #potatoBall-making h2 {
+        font-size: 200%;
+        margin-right: 2%;
+        margin-bottom: -1.5%;
+    }
+
+    #potatoBall-making h3 {
+        font-size: 160%;
+        margin-bottom: 1%;
+        margin-right: 2%;
+    }
+
+    #potatoBall-making section {
+        margin-right: 5%;
+        padding-top: 2.5%;
+    }
+
+    #potatoBall-making p {
+        list-style: unset;
+        font-family: 'Rubik';
+        padding: 0.5% 0 0.5% 0;
+        margin-right: 4.5%;
+        margin-left: 10%;
+        font-weight: 500;
+        font-size: 115%;
+        letter-spacing: 0.5px;
+        line-height: 1.5;
+    }

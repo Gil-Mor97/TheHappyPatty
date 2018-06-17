@@ -1,0 +1,416 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>כדורי פירה - הקציצה המרוצה</title>
+    <meta name="description" content="דף מתכון כדורי פירה באתר הקציצה המרוצה" />
+    <meta name="keywords" content="Vegan, הקציצה המרוצה, טבעונות, קציצה טבעונית, תפוחי אדמה, תפוא, כדורי פירה, זמן הכנה, מתכון להפדסה, טבעונים, המבורגר טבעוני" />
+    <meta name="author" content="אסף זיתוני, בן שני, גיל מור" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link rel="icon" href="images/favicon.png">
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="skip">
+            <a href="#skipToContent">דלג לתוכן</a>
+        </div>
+        <header>
+            <h1>
+                <a href="index.html" target="_self"><img id="homeLink" src="images/homepage/Homepage_LOGO.png" alt="לוגו אתר הקציצה המרוצה" /></a>
+            </h1>
+            <nav id="nav1" role="navigation">
+                <ul>
+                    <li>
+                        <a href="index.html" target="_self"></a>
+                    </li>
+                    <li>
+                        <a href="PattyLobby.html">קציצות</a>
+                        <ul>
+                            <li>
+                                <a href="PattyLobby.html#burgers_juicy">לשחיתות</a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="notActive">קציצת פטריות</a>
+                                    </li>
+                                    <li>
+                                        <a href="OFFburger.html">קציצת "עוף"</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">קציצת סייטן</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">קציצת סלק</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="PattyLobby.html#burgers_healthy">לבריאות</a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="notActive">קציצת כרובית</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">קציצת ירוקים</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">קציצת סלק ובטטה</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">קציצת אפונה</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="PattyLobby.html#burgers_GF">ללא גלוטן</a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="notActive">קציצת סלק ופלפל</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">קציצת קינואה</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">קציצת שעועית</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="SideDishesLobby.html">תוספות</a>
+                        <ul>
+                            <li>
+                                <a href="SideDishesLobby.html#aboveTheBurger">מעל ההמבורגר</a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="notActive">גוואקמולי</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">פטריית פורטבלו</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">בצל מטוגן</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">אננס</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="SideDishesLobby.html#nextToTheBurger">ליד ההמבורגר</a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="notActive">צ'יפס</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">פוטטוס</a>
+                                    </li>
+                                    <li>
+                                        <a href="PotatoBalls.html">כדורי פירה</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">שעועית ירוקה בפסטו</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="notActive">מטבלים ורטבים</a>
+                        <ul>
+                            <li>
+                                <a href="#" class="notActive">סלסה חריפה</a>
+                            </li>
+                            <li>
+                                <a href="#" class="notActive">איולי שום</a>
+                            </li>
+                            <li>
+                                <a href="#" class="notActive">טחינה ירוקה</a>
+                            </li>
+                            <li>
+                                <a href="#" class="notActive">ברביקיו מעושן</a>
+                            </li>
+                            <li>
+                                <a href="#" class="notActive">צ'יפוטלה</a>
+                            </li>
+                            <li>
+                                <a href="#" class="notActive">פסטו אגוזים</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="notActive">לחמניות</a>
+                        <ul>
+                            <li>
+                                <a href="#" class="notActive">רגילות</a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="notActive">לחמניות המבורגר</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">לחמניות פלפלים</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="notActive">בריאותיות</a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="notActive">לחמניות כוסמין מלא</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">לחמניות חיטה מלאה</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="PattyLobby.html#burgers_GF">ללא גלוטן</a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="notActive">לחמניות עדשים</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">לחמניות קמח חומוס</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">לחמניות קמח תירס</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="notActive">ארוחות</a>
+                        <ul>
+                            <li>
+                                <a href="PattyLobby.html#burgers_juicy">לשחיתות</a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="notActive">The Mush</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">OFF Burger</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">Hail Seitan</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="PattyLobby.html#burgers_healthy">לבריאות</a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="notActive">Weight-Less</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">Green-Burger</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">Beet-Yum</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="PattyLobby.html#burgers_GF">ללא גלוטן</a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="notActive">BalBaLafel</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">Queenoa</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">Sweet-Bean</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <article id="potatoBallContent">
+            <div id="potatoBallHead">
+                <h1 id="skipToContent">כדורי פירה</h1>
+                <span>הכדור בידיים שלך!</span>
+            </div>
+
+            <section id="potatoBall-ingridients">
+                <h2>
+                    מרכיבים:
+                </h2>
+
+                <div id="cookTime">
+                    <img src="images/PotatoBalls/PotatoBallsRes_Clock.png" alt="זמן הכנה" />
+                    30 דקות
+                </div>
+
+                <div id="difficulty">
+                    דרגת קושי
+                    <img src="images/PotatoBalls/PotatoBallsRes_Difficulty-41.png" alt="דרגת קושי בינונית - 2 מתוף 3" />
+                </div>
+                <section>
+                    <h3>
+                        למילוי:
+                    </h3>
+
+
+                    <ul>
+                        <li>
+                            <label for="D-ingridient1">
+                                <input type="checkbox" id="D-ingridient1">
+                                6 תפוחי אדמה בינוניים
+                            </label>
+                        </li>
+                        <li>
+                            <label for="D-ingridient2">
+                                <input type="checkbox" id="D-ingridient2">
+                                1 בצל
+                            </label>
+                        </li>
+                        <li>
+                            <label for="D-ingridient3">
+                                <input type="checkbox" id="D-ingridient3">
+                                4 כפות קמח לבן
+                            </label>
+                        </li>
+                        <li>
+                            <label for="D-ingridient4">
+                                <input type="checkbox" id="D-ingridient4">
+                                1 כפית צ'ילי גרוס
+                            </label>
+                        </li>
+                        <li>
+                            <label for="D-ingridient5">
+                                <input type="checkbox" id="D-ingridient5">
+                                1 כפית פלפל שחור
+                            </label>
+                        </li>
+                        <li>
+                            <label for="D-ingridient6">
+                                <input type="checkbox" id="D-ingridient6">
+                                2 כפיות מלח
+                            </label>
+                        </li>
+                        <li>
+                            <label for="D-ingridient7">
+                                <input type="checkbox" id="D-ingridient7">
+                                שמן זית לטיגון
+                            </label>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>
+                        לציפוי:
+                    </h3>
+                    <ul>
+                        <li>
+                            <label for="W-ingridient1">
+                                <input type="checkbox" id="W-ingridient1">
+                                5 כפות קורנפלור
+                            </label>
+                        </li>
+                        <li>
+                            <label for="W-ingridient2">
+                                <input type="checkbox" id="W-ingridient2">
+                                1 כפית אבקת שום
+                            </label>
+                        </li>
+                        <li>
+                            <label for="W-ingridient3">
+                                <input type="checkbox" id="W-ingridient3">
+                                פירורי לחם
+                            </label>
+                        </li>
+                        <li>
+                            <label for="W-ingridient4">
+                                <input type="checkbox" id="W-ingridient4">
+                                שומשום (אופציונלי)
+                            </label>
+                        </li>
+                    </ul>
+                </section>
+
+                <span>
+                    *ניתן לסמן את הרכיבים באמצעות תיבות הסימון
+                </span>
+
+                <figure>
+                    <img src="images/PotatoBalls/PotatoBallsRes_PotatoBallsBig.png" alt="תמונה של כדורי הפירה" />
+                </figure>
+            </section>
+
+            <section id="potatoBall-making">
+                <section>
+                    <h2>
+                        אופן ההכנה
+                    </h2>
+                    <section>
+                        <h3>
+                            הכנת הפירה
+                        </h3>
+                        <p>
+                            לקלף את תפוחי האדמה ולחתוך לחצאים, לאחר מכן יש להרתיח את תפוחי האדמה בסיר עם
+                            מים ולאחר הרתחה להנמיך את הלהבה, יש לבשל את תפוחי האדמה למשך 30 דקות
+                            יש לסנן את המים ולמעוך את תפוחי האדמה עד ליצירת מרקם של פירה.
+                        </p>
+                    </section>
+                    <section>
+                        <h3>
+                            יצירת הכדורים
+                        </h3>
+                        <p>
+                            טגנו את הבצל בשמן זית עד להזהבה, לאחר מכן עליכם להוסיף את הבצל המטוגן לפירה
+                            יש להוסיף את שאר החומרים: התבלנים והקמח הלבן, לערבב את החומרים היטב
+                            ולבסוף לכדרר את לכדורים קטנים.
+                        </p>
+                    </section>
+                    <section>
+                        <h3>
+                            ציפוי וטיגון
+                        </h3>
+                        <p>
+                            יש לערבב היטב את הקורנפלור עם מים קרים (שיהיה נוזלי וסמיך). <br />
+                            לאחר מכן מערבבים את פירורי הלחם ושאר החומרים בקערה, יש לטבול את הכדורים בבלילת
+                            הקורנפלור ואז בפירורי הלחם. לבסוף מטגנים את הכדורים עד להשחמה וסופגים את השמן.
+                        </p>
+                    </section>
+
+                    <a href="recipes/POTATO_BALLS.pdf">
+                        <img id="recipe-pdf" src="images/PotatoBalls/PRINT.png" alt="לינק להורדת PDF או להדפסת דף המתכון" />
+                    </a>
+
+                </section>
+            </section>
+
+        </article>
+
+        <footer id="footer1">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="about.html">אודות</a>
+                    </li>
+                    <li>
+                        <a href="sitemap.html">מפת האתר</a>
+                    </li>
+                    <li>
+                        <a href="contactUs.html">צור קשר</a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="footer_decoration">
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

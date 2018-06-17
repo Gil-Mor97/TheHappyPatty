@@ -1,0 +1,406 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>קציצות - הקציצה המרוצה</title>
+    <meta name="description" content="דף מתכון 'עוף'-בורגר באתר הקציצה המרוצה" />
+    <meta name="keywords" content="Vegan, הקציצה המרוצה, טבעונות, קציצה טבעונית, המבורגר 'עוף', זמן הכנה, מתכון להפדסה, טבעונים, המבורגר טבעוני" />
+    <meta name="author" content="אסף זיתוני, בן שני, גיל מור" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link rel="icon" href="images/favicon.png">
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="skip">
+            <a href="#skipToContent">דלג לתוכן</a>
+        </div>
+        <header>
+            <h1>
+                <a href="index.html" target="_self"><img id="homeLink" src="images/homepage/Homepage_LOGO.png" alt="לוגו אתר הקציצה המרוצה" /></a>
+            </h1>
+            <nav id="nav1" role="navigation">
+                <ul>
+                    <li>
+                        <a href="index.html" target="_self"></a>
+                    </li>
+                    <li>
+                        <a href="PattyLobby.html">קציצות</a>
+                        <ul>
+                            <li>
+                                <a href="PattyLobby.html#burgers_juicy">לשחיתות</a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="notActive">קציצת פטריות</a>
+                                    </li>
+                                    <li>
+                                        <a href="OFFburger.html">קציצת "עוף"</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">קציצת סייטן</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">קציצת סלק</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="PattyLobby.html#burgers_healthy">לבריאות</a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="notActive">קציצת כרובית</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">קציצת ירוקים</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">קציצת סלק ובטטה</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">קציצת אפונה</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="PattyLobby.html#burgers_GF">ללא גלוטן</a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="notActive">קציצת סלק ופלפל</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">קציצת קינואה</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">קציצת שעועית</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="SideDishesLobby.html">תוספות</a>
+                        <ul>
+                            <li>
+                                <a href="SideDishesLobby.html#aboveTheBurger">מעל ההמבורגר</a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="notActive">גוואקמולי</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">פטריית פורטבלו</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">בצל מטוגן</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">אננס</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="SideDishesLobby.html#nextToTheBurger">ליד ההמבורגר</a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="notActive">צ'יפס</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">פוטטוס</a>
+                                    </li>
+                                    <li>
+                                        <a href="PotatoBalls.html">כדורי פירה</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">שעועית ירוקה בפסטו</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="notActive">מטבלים ורטבים</a>
+                        <ul>
+                            <li>
+                                <a href="#" class="notActive">סלסה חריפה</a>
+                            </li>
+                            <li>
+                                <a href="#" class="notActive">איולי שום</a>
+                            </li>
+                            <li>
+                                <a href="#" class="notActive">טחינה ירוקה</a>
+                            </li>
+                            <li>
+                                <a href="#" class="notActive">ברביקיו מעושן</a>
+                            </li>
+                            <li>
+                                <a href="#" class="notActive">צ'יפוטלה</a>
+                            </li>
+                            <li>
+                                <a href="#" class="notActive">פסטו אגוזים</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="notActive">לחמניות</a>
+                        <ul>
+                            <li>
+                                <a href="#" class="notActive">רגילות</a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="notActive">לחמניות המבורגר</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">לחמניות פלפלים</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="notActive">בריאותיות</a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="notActive">לחמניות כוסמין מלא</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">לחמניות חיטה מלאה</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="PattyLobby.html#burgers_GF">ללא גלוטן</a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="notActive">לחמניות עדשים</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">לחמניות קמח חומוס</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">לחמניות קמח תירס</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="notActive">ארוחות</a>
+                        <ul>
+                            <li>
+                                <a href="PattyLobby.html#burgers_juicy">לשחיתות</a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="notActive">The Mush</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">OFF Burger</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">Hail Seitan</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="PattyLobby.html#burgers_healthy">לבריאות</a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="notActive">Weight-Less</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">Green-Burger</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">Beet-Yum</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="PattyLobby.html#burgers_GF">ללא גלוטן</a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="notActive">BalBaLafel</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">Queenoa</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="notActive">Sweet-Bean</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <article id="OFFburgerContent">
+            <div id="offBurgerHead">
+                <h1 id="skipToContent">OFFburger</h1>
+                <span>כמו המקור - בלי המקור</span>
+            </div>
+            
+            <section id="OFFburger-ingridients">
+                <h2>
+                    מרכיבים:
+                </h2>
+
+                <div id="cookTime">
+                    <img src="images/OFFBurger/Res_CLOCK.png" alt="זמן הכנה" />
+                    30 דקות
+                </div>
+
+                <div id="difficulty">
+                    דרגת קושי
+                    <img src="images/OFFBurger/Res_Difficulty.png" alt="דרגת קושי קלה - 1 מתוף 3" />
+                </div>
+
+                <section>
+                    <h3>
+                        יבשים:
+                    </h3>
+                    <ul>
+                        <li>
+                            <label for="D-ingridient1">
+                                <input type="checkbox" id="D-ingridient1">
+                                500 גרם חלבון חיטה (סייטן) טחון גס
+                            </label>
+                        </li>
+                        <li>
+                            <label for="D-ingridient2">
+                                <input type="checkbox" id="D-ingridient2">
+                                כף אבקת בצל
+                            </label>
+                        </li>
+                        <li>
+                            <label for="D-ingridient3">
+                                <input type="checkbox" id="D-ingridient3">
+                                כפית מלח ופלפל (ניתן לשנות לפי הטעם)
+                            </label>
+                        </li>
+                        <li>
+                            <label for="D-ingridient4">
+                                <input type="checkbox" id="D-ingridient4">
+                                כפית תבלין עוף
+                            </label>
+                        </li>
+                        <li>
+                            <label for="D-ingridient5">
+                                <input type="checkbox" id="D-ingridient5">
+                                כף כפית זרעי פשתן טחון
+                            </label>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>
+                        רטובים:
+                    </h3>
+                    <ul>
+                        <li>
+                            <label for="W-ingridient1">
+                                <input type="checkbox" id="W-ingridient1">
+                                2 כפיות טחינה
+                            </label>
+                        </li>
+                        <li>
+                            <label for="W-ingridient2">
+                                <input type="checkbox" id="W-ingridient2">
+                                חצי כוס ציר ירקות
+                            </label>
+                        </li>
+                        <li>
+                            <label for="W-ingridient3">
+                                <input type="checkbox" id="W-ingridient3">
+                                שליש כוס חלב סויה
+                            </label>
+                        </li>
+                        <li>
+                            <label for="W-ingridient4">
+                                <input type="checkbox" id="W-ingridient4">
+                                שמן קנולה (אופציונאלי לטיגון)
+                            </label>
+                        </li>
+                    </ul>
+                </section>
+
+                <span>
+                    *ניתן לסמן את הרכיבים באמצעות תיבות הסימון
+                </span>
+
+                <figure>
+                    <img src="images/OFFBurger/Res_BigburgerPic.png" alt="תמונה של קציצה הOFFBURGER" />
+                </figure>
+            </section>
+
+            <section id="OFFburger-making">
+                <section>
+                    <h2>
+                        אופן ההכנה:
+                    </h2>
+                    <ol>
+                        <li>
+                            בקערה גדולה, ערבבו את כל המרכיבים היבשים מלבד הסייטן.
+                        </li>
+                        <li>
+                            לאחר שהתערובת אחידה, הוסיפו סייטן בהדרגה והמשיכו לערבב
+                        </li>
+                        <li>
+                            בקערה נוספת, ערבבו את כל המרכיבים הרטובים. לאחר מכן שפכו את התוכן בהדרגה וערבבו.
+                        </li>
+                        <li>
+                            מהתערובת שהתקבלה, צרו (בעזרת הידיים או "רינג") קציצות אחידות בעובי לפי בחירתכם.
+                        </li>
+                    </ol>
+                </section>
+                <section>
+                    <h2>
+                        מכאן אפשר לטגן או לאפות:
+                    </h2>
+                    <ol>
+                        <li>
+                            <b>
+                                בטיגון –
+                            </b>
+                            חממו שכבה של סנטימטר שמן קנולה על מחבת באש גבוהה. כשהשמן חם הניחו בזהירות את הקציצות. סיום הטיגון כאשר הקציצות מקבלות גוון זהוב משני הצדדים.
+                        </li>
+                        <li>
+                            <b>
+                                באפייה –
+                            </b>
+                            חממו תנור לכ220 מעלות. הכניסו את הקציצות למשך 8-9 דקות, הפכו אותן בהתאם לצבע הרצוי.
+                        </li>
+                    </ol>
+
+                    <a href="recipes/OFFBURGER.pdf">
+                        <img id="recipe-pdf" src="images/OFFBurger/PRINT.png" alt="לינק להורדת PDF או להדפסת דף המתכון" />
+                    </a>
+
+                </section>
+            </section>
+
+        </article>
+
+        <footer id="footer1">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="about.html">אודות</a>
+                    </li>
+                    <li>
+                        <a href="sitemap.html">מפת האתר</a>
+                    </li>
+                    <li>
+                        <a href="contactUs.html">צור קשר</a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="footer_decoration">
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
