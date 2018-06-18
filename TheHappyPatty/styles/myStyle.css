@@ -42,7 +42,7 @@ article {
 }
 
 /*===============================================================================================================*/
-/*λτϊεψ γιμεβ μϊελο*/
+/*Χ›Χ¤ΧªΧ•Χ¨ Χ“Χ™ΧΧ•Χ’ ΧΧªΧ•Χ›Χ*/
 
 #skip {
     width: 100%;
@@ -79,8 +79,8 @@ article {
         }
 
 /*===============================================================================================================*/
-/*ϊτψιθιν*/
-/*ϊτψιθ ψΰωι*/
+/*ΧªΧ¤Χ¨Χ™ΧΧ™Χ*/
+/*ΧªΧ¤Χ¨Χ™Χ Χ¨ΧΧ©Χ™*/
 #homeLink {
     margin-top: 0%;
     width: 18%;
@@ -101,7 +101,7 @@ article {
 
 #nav1 ul {
     list-style: none;
-    /*ψεηα εξψλεζ δϊτψιθ μΰξφς*/
+    /*Χ¨Χ•Χ—Χ‘ Χ•ΧΧ¨Χ›Χ•Χ– Χ”ΧªΧ¤Χ¨Χ™Χ ΧΧΧΧ¦ΧΆ*/
     width: 100%;
     margin: 0 auto;
     padding-bottom: 5%;
@@ -209,7 +209,7 @@ article {
 
     #footer1 ul {
         list-style: none;
-        /*ψεηα εξψλεζ δϊτψιθ μΰξφς*/
+        /*Χ¨Χ•Χ—Χ‘ Χ•ΧΧ¨Χ›Χ•Χ– Χ”ΧªΧ¤Χ¨Χ™Χ ΧΧΧΧ¦ΧΆ*/
         margin: 0 auto;
         padding-bottom: 3%;
         background-color: #8bc13fb0;
@@ -245,13 +245,13 @@ article {
 
 /*===============================================================================================================*/
 
-/*γσ δαιϊ*/
+/*Χ“Χ£ Χ”Χ‘Χ™Χª*/
 
-/*ϊφεβϊ αεψβψιν*/
+/*ΧªΧ¦Χ•Χ’Χª Χ‘Χ•Χ¨Χ’Χ¨Χ™Χ*/
 
 
 #tilt1 {
-    /*δθιιδ*/
+    /*Χ”ΧΧ™Χ™Χ”*/
     -moz-transform: rotate(6.5deg);
     -webkit-transform: rotate(6.5deg);
     -o-transform: rotate(6.5deg);
@@ -259,11 +259,11 @@ article {
     transform: rotate(6.5deg);
     margin-top: -3%;
     margin-bottom: 3%;
-    /*δβγψϊ δψχς*/
+    /*Χ”Χ’Χ“Χ¨Χª Χ”Χ¨Χ§ΧΆ*/
     background: url(../images/homepage/Homepage_V.png) no-repeat;
     background-size: 6%;
     background-position: 87.5%;
-    /*θχρθ*/
+    /*ΧΧ§Χ΅Χ*/
     text-align: center;
     font-family: 'Rubik';
     font-weight: bold;
@@ -351,7 +351,7 @@ article {
     margin-left: -12%;
 }
 
-/*αΰπψιν*/
+/*Χ‘ΧΧ Χ¨Χ™Χ*/
 #banner1 {
     background: url(../images/homepage/Homepage_Banner1.png) no-repeat;
     width: 100%;
@@ -411,7 +411,7 @@ article {
 }
 
 
-/*ρχωο ϊηϊεο*/
+/*Χ΅Χ§Χ©Χ ΧªΧ—ΧªΧ•Χ*/
 #lowerSection {
     text-align: center;
 }
@@ -433,7 +433,7 @@ article {
         word-spacing: 3px;
     }
 
-/*ϊτψιθ ϊηϊεο*/
+/*ΧªΧ¤Χ¨Χ™Χ ΧªΧ—ΧªΧ•Χ*/
 
 #lowerNav {
 }
@@ -474,7 +474,7 @@ article {
 
 
 /*===============================================================================================================*/
-/*γσ ξτϊ δΰϊψ*/
+/*Χ“Χ£ ΧΧ¤Χª Χ”ΧΧªΧ¨*/
 
 #mapa h1 {
     background: url(../images/homepage/Homepage_TitleStsain.png) no-repeat;
@@ -489,7 +489,7 @@ article {
     font-family: 'Rubik';
 }
 
-/*ξτϊ δΰϊψ*/
+/*ΧΧ¤Χª Χ”ΧΧªΧ¨*/
 
 #siteMap {
     margin: 0 5% 0 5%;
@@ -525,8 +525,8 @@ article {
 
 
 /*===============================================================================================================*/
-/*γσ ΰεγεϊ*/
-/*λεϊψϊ*/
+/*Χ“Χ£ ΧΧ•Χ“Χ•Χª*/
+/*Χ›Χ•ΧªΧ¨Χª*/
 #odotHead {
     background: url(../images/homepage/Homepage_TitleStsain.png) no-repeat;
     background-size: 39%;
@@ -554,7 +554,7 @@ article {
     }
 
 
-/*ϊελο ΰεγεϊ*/
+/*ΧªΧ•Χ›Χ ΧΧ•Χ“Χ•Χª*/
 
 #odotContent {
     margin: 0 2% 0 2%;
@@ -587,7 +587,7 @@ article {
     }
 
 
-/*ψωιξϊ ηαψι φεεϊ*/
+/*Χ¨Χ©Χ™ΧΧª Χ—Χ‘Χ¨Χ™ Χ¦Χ•Χ•Χª*/
 
 
 
@@ -621,7 +621,7 @@ article {
 
 
 
-/*ψωιξϊ χεψριν*/
+/*Χ¨Χ©Χ™ΧΧª Χ§Χ•Χ¨Χ΅Χ™Χ*/
 #courses li {
     font-size: 120%;
     font-family: 'Rubik';
@@ -634,7 +634,7 @@ article {
     padding: 1%;
 }
 
-/*χιωεψ μHIT*/
+/*Χ§Χ™Χ©Χ•Χ¨ ΧHIT*/
 
 #odotContent #telemLink {
     margin: 0 30% 0 30%;
@@ -652,7 +652,7 @@ article {
 
 
 /*===============================================================================================================*/
-/*γσ φεψ χωψ*/
+/*Χ“Χ£ Χ¦Χ•Χ¨ Χ§Χ©Χ¨*/
 
 #contactUs {
     margin: 0 2% 0 2%;
@@ -700,8 +700,8 @@ article {
 
 
 /*===============================================================================================================*/
-/*γσ χφιφεϊ*/
-/*λεϊψϊ*/
+/*Χ“Χ£ Χ§Χ¦Χ™Χ¦Χ•Χª*/
+/*Χ›Χ•ΧªΧ¨Χª*/
 
 #pattyHead {
     background: url(../images/homepage/Homepage_TitleStsain.png) no-repeat;
@@ -732,7 +732,7 @@ article {
         top: -7px;
     }
 
-/*ϊελο*/
+/*ΧªΧ•Χ›Χ*/
 
 .pattyLobbyTable {
     margin-bottom: 10%;
@@ -788,8 +788,8 @@ article {
 
 
 /*===============================================================================================================*/
-/*γσ ϊερτεϊ*/
-/*λεϊψϊ*/
+/*Χ“Χ£ ΧªΧ•Χ΅Χ¤Χ•Χª*/
+/*Χ›Χ•ΧªΧ¨Χª*/
 
 #sideHead {
     background: url(../images/homepage/Homepage_TitleStsain.png) no-repeat;
@@ -822,108 +822,7 @@ article {
     }
 
 
-/*ϊελο*/
-
-
-/*#sideDishesContent {
-    margin-bottom: 5%;
-}
-
-    #sideDishesContent section:first-child h2 {
-        margin-left: -47.5%;
-        float: left;
-    }
-
-    #sideDishesContent section:last-child h2 {
-        margin-right: 2%;
-        margin-left: -45%;
-        float: right;
-        position: relative;
-        top: -45px;
-    }
-
-    #sideDishesContent h2 img {
-        width: 22%;
-        height: 100%;
-        position: relative;
-        top: 30px;
-    }
-
-    #sideDishesContent section {
-        margin-bottom: 5%;
-    }
-
-        #sideDishesContent section table img {
-            margin-top: 10%;
-        }
-
-        #sideDishesContent section:first-child table img {
-            height: 130px;
-            width: 200px;
-        }
-
-        #sideDishesContent section:first-child table {
-            margin-right: 5%;
-        }
-
-            #sideDishesContent section:first-child table td:nth-child(even) img,
-            #sideDishesContent section:first-child table td:nth-child(even) h3,
-            #sideDishesContent section:first-child table td:nth-child(even) span {
-                margin-right: -15%;
-            }
-
-        #sideDishesContent section:last-child table img {
-            height: 130px;
-            width: 200px;
-        }
-
-        #sideDishesContent section:last-child table {
-            width: 70%;
-            position: relative;
-            top: -30px;
-        }
-
-        #sideDishesContent section:first-child table {
-            width: 80%;
-            background: url(../images/SideDishesLobby/ExtraLobi_Bgstein-65.png) no-repeat;
-            background-position-y: -160%;
-            background-position-x: 50%;
-            background-size: 95%;
-        }
-
-        #sideDishesContent section:last-child table {
-            background: url(../images/SideDishesLobby/ExtraLobi_Bgstein-66.png) no-repeat;
-            background-size: 750px;
-            background-position-y: -60%;
-        }
-
-        #sideDishesContent section table td {
-            text-align: center;
-        }
-
-    #sideDishesContent table h3, #sideDishesContent table span {
-        font-family: 'Rubik';
-    }
-
-    #sideDishesContent section table td h3 {
-        margin-top: 2%;
-        font-weight: 700;
-        font-size: 150%
-    }
-
-    #sideDishesContent section table td span {
-        font-weight: 600;
-        font-size: 120%;
-    }
-
-    #sideDishesContent section:first-child table td {
-        height: 20%;
-        width: 50%;
-    }
-
-    #sideDishesContent section:last-child table {
-        margin-left: 20%;
-    }*/
+/*ΧªΧ•Χ›Χ*/
 
 
 #nextToTheBurger h2 {
@@ -965,13 +864,20 @@ article {
         margin-left: 20%;
     }
 
-
-
 .sidesLists li {
     text-align: center;
     display: inline-block;
     margin: 0% 12% 3% 8%;
+    font-weight: 600;
+    font-size: 120%;
+    list-style-type: none;
 }
+
+    .sidesLists li h3 {
+        margin-top: 2%;
+        font-weight: 700;
+        font-size: 150%
+    }
 
 .sidesLists ul li img {
     height: 130px;
@@ -990,7 +896,7 @@ article {
     }
 
 
-.sidesLists li h3, 
+.sidesLists li h3,
 .sidesLists li span {
     font-family: 'Rubik';
 }
@@ -1015,12 +921,6 @@ article {
         list-style-type: none;
     }
 
-        #nextToTheBurger li h3 {
-            margin-top: 2%;
-            font-weight: 700;
-            font-size: 150%
-        }
-
 .NaturalStyleLink {
     color: black;
     text-decoration: none;
@@ -1042,8 +942,8 @@ article {
 }
 
 /*===============================================================================================================*/
-/*γσ OFFBURGER*/
-/*λεϊψϊ*/
+/*Χ“Χ£ OFFBURGER*/
+/*Χ›Χ•ΧªΧ¨Χª*/
 
 #offBurgerHead {
     background: url(../images/OFFBurger/Res_Title.png) no-repeat;
@@ -1074,14 +974,14 @@ article {
     }
 
 
-/*ϊελο*/
+/*ΧªΧ•Χ›Χ*/
 
 #recipe-pdf {
     margin: 0% 85% -7% 0;
     width: 9%;
 }
 
-/*ξψλιαιν*/
+/*ΧΧ¨Χ›Χ™Χ‘Χ™Χ*/
 #OFFburgerContent h2, #OFFburgerContent h3 {
     font-family: 'Rubik';
 }
@@ -1164,7 +1064,7 @@ article {
     }
 
 
-/*ΰετο δδλπδ*/
+/*ΧΧ•Χ¤Χ Χ”Χ”Χ›Χ Χ”*/
 #OFFburger-making {
     margin-top: 5%;
     background: url(../images/OFFBurger/Res_RecBG.png) no-repeat;
@@ -1204,8 +1104,8 @@ article {
 
 
 /*===============================================================================================================*/
-/*γσ λγεψι τιψδ*/
-/*λεϊψϊ*/
+/*Χ“Χ£ Χ›Χ“Χ•Χ¨Χ™ Χ¤Χ™Χ¨Χ”*/
+/*Χ›Χ•ΧªΧ¨Χª*/
 
 #potatoBallHead {
     background: url(../images/OFFBurger/Res_Title.png) no-repeat;
@@ -1236,9 +1136,9 @@ article {
     }
 
 
-/*ϊελο*/
+/*ΧªΧ•Χ›Χ*/
 
-/*ξψλιαιν*/
+/*ΧΧ¨Χ›Χ™Χ‘Χ™Χ*/
 
 
 
@@ -1328,7 +1228,7 @@ article {
         display: block;
     }
 
-/*ΰετο δδλπδ*/
+/*ΧΧ•Χ¤Χ Χ”Χ”Χ›Χ Χ”*/
 #potatoBall-making {
     margin-top: 5%;
     background: url(../images/OFFBurger/Res_RecBG.png) no-repeat;
