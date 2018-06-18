@@ -14,17 +14,16 @@ body {
     height: auto;
     background: url(../images/homepage/Homepage_Background.png);
     background-size: 100%;
-    position: absolute;
-    /* top: 25px; */
-    /*zoom: 158%;
-    overflow-x: auto;*/
-    left: 50%;
+    margin: 0 auto;
     width: 960px;
+
+    /*left: 50%;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
+    position: absolute;*/
 }
 
 .notActive {
@@ -188,9 +187,9 @@ article {
     margin-top: -24%
 }
 
-    #nav1 ul li:hover ul a {
-        border-top: 1px solid black;
-    }
+#nav1 ul li:hover ul a {
+    border-top: 1px solid black;
+}
 
 /*footer*/
 
@@ -263,7 +262,7 @@ article {
     /*הגדרת הרקע*/
     background: url(../images/homepage/Homepage_V.png) no-repeat;
     background-size: 6%;
-    background-position: 87.5%  ;
+    background-position: 87.5%;
     /*טקסט*/
     text-align: center;
     font-family: 'Rubik';
@@ -272,18 +271,18 @@ article {
     line-height: 150%;
 }
 
-    .burgersDisplay img {
-        width: 24.5%;
-        height: 100%;
-    }
+.burgersDisplay img {
+    width: 24.5%;
+    height: 100%;
+}
 
-    .burgersDisplay li {
-        list-style-type: none;
-        display: inline;
-        padding: 1.5%;
-        margin-right: 7%;
-        margin-left: 5%;
-    }
+.burgersDisplay li {
+    list-style-type: none;
+    display: inline;
+    padding: 1.5%;
+    margin-right: 7%;
+    margin-left: 5%;
+}
 
 #bd_firstRow {
     margin-right: 20%;
@@ -294,7 +293,8 @@ article {
         width: 32%;
         padding-left: 4%;
     }
-  }
+
+}
 
 .burgerH, .burgerSpan {
     display: none;
@@ -496,8 +496,7 @@ article {
     background-color: #a8c86d91;
 }
 
-    #siteMap a
-    {
+    #siteMap a {
         color: black;
     }
 
@@ -588,63 +587,68 @@ article {
     }
 
 
+/*רשימת חברי צוות*/
 
-    /*טבלת חברי צוות*/
 
-    #odotContent table tr:first-child td {
+
+#teammates {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+    #teammates li {
+        list-style: none;
         background: url(../images/homepage/low-nav/Homepage_BurgerStain.png) no-repeat;
         background-size: 100%;
         background-position: center;
+        display: inline-block;
+        padding: 5%;
     }
 
-    #odotContent table {
-        margin-right: 30%;
-        margin-left: 25%;
-    }
-
-        #odotContent table td {
-            padding: 2%;
-            text-align: center;
-            font-family: 'Rubik';
-            font-weight: 700;
-        }
-
-        #odotContent table img {
-            height: 120px;
-            width: 120px;
-            padding: 10%;
-            padding-bottom: 0px;
-            margin-bottom: -5%;
-        }
-
-    /*רשימת קורסים*/
-    #odotContent li {
-        font-size: 120%;
+    #teammates p {
+        text-align: center;
         font-family: 'Rubik';
-        list-style: disc;
-        margin-right: 2%;
-        padding: 0.25%
+        font-weight: 700;
+        display: block;
     }
 
-    #odotContent ul {
-        padding: 1%;
+    #teammates img {
+        height: 120px;
+        width: 120px;
+        margin-bottom: -5%;
     }
 
-    /*קישור לHIT*/
 
-    #odotContent #telemLink {
-        margin: 0 30% 0 30%;
+
+
+/*רשימת קורסים*/
+#courses li {
+    font-size: 120%;
+    font-family: 'Rubik';
+    list-style: disc;
+    margin-right: 2%;
+    padding: 0.25%
+}
+
+#courses ul {
+    padding: 1%;
+}
+
+/*קישור לHIT*/
+
+#odotContent #telemLink {
+    margin: 0 30% 0 30%;
+}
+
+    #odotContent #telemLink h2 {
+        padding-bottom: 5%;
     }
 
-        #odotContent #telemLink h2 {
-            padding-bottom: 5%;
-        }
-
-        #odotContent #telemLink img {
-            width: 80%;
-            height: 100%;
-            margin: 0 10% 0 10%;
-        }
+    #odotContent #telemLink img {
+        width: 80%;
+        height: 100%;
+        margin: 0 10% 0 10%;
+    }
 
 
 /*===============================================================================================================*/
@@ -736,7 +740,7 @@ article {
     height: 1100px;
     margin-right: 1.5%;
     position: relative;
-    }
+}
 
     .pattyLobbyTable th {
         font-family: 'Rubik';
@@ -821,7 +825,7 @@ article {
 /*תוכן*/
 
 
-#sideDishesContent {
+/*#sideDishesContent {
     margin-bottom: 5%;
 }
 
@@ -868,7 +872,6 @@ article {
                 margin-right: -15%;
             }
 
-
         #sideDishesContent section:last-child table img {
             height: 130px;
             width: 200px;
@@ -879,7 +882,6 @@ article {
             position: relative;
             top: -30px;
         }
-
 
         #sideDishesContent section:first-child table {
             width: 80%;
@@ -921,7 +923,103 @@ article {
 
     #sideDishesContent section:last-child table {
         margin-left: 20%;
+    }*/
+
+
+#nextToTheBurger h2 {
+    margin-right: 2%;
+    margin-left: -45%;
+    float: right;
+    position: relative;
+    top: -45px;
+}
+
+#sideDishesContent h2 img {
+    width: 22%;
+    height: 100%;
+    position: relative;
+    top: 30px;
+}
+
+
+#nextToTheBurger ul img {
+    height: 130px;
+    width: 200px;
+}
+
+#aboveTheBurger {
+    margin-bottom: 2%;
+}
+
+    #aboveTheBurger h2 {
+        margin-left: -47.5%;
+        float: left;
+        margin-top: -3%;
     }
+
+
+    #aboveTheBurger ul {
+        width: 80%;
+        background: url(../images/SideDishesLobby/ExtraLobi_Bgstein-65.png) no-repeat;
+        background-size: 95%;
+        margin-left: 20%;
+    }
+
+
+
+.sidesLists li {
+    text-align: center;
+    display: inline-block;
+    margin: 0% 12% 3% 8%;
+}
+
+.sidesLists ul li img {
+    height: 130px;
+    width: 200px;
+    margin-top: 10%;
+}
+
+.sidesLists ul {
+    margin-right: 5%;
+}
+
+    .sidesLists ul li:nth-child(even) img,
+    .sidesLists ul li:nth-child(even) h3,
+    .sidesLists ul li:nth-child(even) span {
+        margin-right: -15%;
+    }
+
+
+.sidesLists li h3, 
+.sidesLists li span {
+    font-family: 'Rubik';
+}
+
+#nextToTheBurger {
+    padding-bottom: 2%;
+}
+
+    #nextToTheBurger ul {
+        width: 80%;
+        background: url(../images/SideDishesLobby/ExtraLobi_Bgstein-66.png) no-repeat;
+        background-size: 95%;
+        background-position-x: 60px;
+        background-position-y: -40px;
+        margin-right: 20%;
+    }
+
+
+    #nextToTheBurger li {
+        font-weight: 600;
+        font-size: 120%;
+        list-style-type: none;
+    }
+
+        #nextToTheBurger li h3 {
+            margin-top: 2%;
+            font-weight: 700;
+            font-size: 150%
+        }
 
 .NaturalStyleLink {
     color: black;
@@ -942,7 +1040,6 @@ article {
     margin-right: 2%;
     margin-bottom: 2%;
 }
-
 
 /*===============================================================================================================*/
 /*דף OFFBURGER*/
