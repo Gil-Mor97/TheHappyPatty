@@ -282,6 +282,11 @@ article {
     height: 100%;
 }
 
+.burgersDisplay a
+{
+    color: transparent;
+}
+
 .burgersDisplay li {
     list-style-type: none;
     display: inline;
