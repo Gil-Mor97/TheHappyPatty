@@ -275,6 +275,8 @@ article {
     font-weight: bold;
     font-size: 255%;
     line-height: 150%;
+    z-index: 1;
+    position: relative;
 }
 
 .burgersDisplay img {
