@@ -29,6 +29,11 @@ body {
     cursor: not-allowed;
 }
 
+.notActiveGrey {
+    cursor: not-allowed;
+    color: dimgrey;
+}
+
 
 p {
     padding: 1%;
@@ -132,6 +137,12 @@ article {
     width: 130px;
     height: 20px;
     padding: 2% 0 2% 0;
+    /*אנימציית CSS - שינוי צבע בהדרגה*/
+    -webkit-transition: background 0.75s ease;
+    -moz-transition: background 0.75s ease;
+    -ms-transition: background 0.75s ease;
+    -o-transition: background 0.75s ease;
+    transition: background 0.75s ease;
 }
 
     #nav1 ul li a:focus,
@@ -551,9 +562,6 @@ article {
     background-color: #a8c86d91;
 }
 
-    #siteMap a {
-        color: black;
-    }
 
     #siteMap > li {
         display: inline-grid;
