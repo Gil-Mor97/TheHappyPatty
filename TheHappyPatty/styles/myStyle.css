@@ -284,8 +284,7 @@ article {
     height: 100%;
 }
 
-.burgersDisplay a
-{
+.burgersDisplay a {
     color: transparent;
 }
 
@@ -820,17 +819,27 @@ article {
     display: inline-block;
 }
 
+#pattyLobbyContent ul li h2 {
+    font-family: 'Rubik';
+    font-weight: 500;
+}
+
     .pattyLobbyTable li:first-child {
         font-family: 'Rubik';
         text-align: center;
         padding-top: 9%;
         font-size: 220%;
         font-weight: 700;
-        /* width: 0%; */
         background: url(../images/pattyLobby/THBackground.png) no-repeat;
         background-position-x: center;
         background-size: 74%;
     }
+
+.pattyLobbyTable li h2 {
+    font-family: 'Rubik';
+    text-align: center;
+    font-weight: 700;
+}
 
     .pattyLobbyTable li {
         margin: 2% -0% 2% 0%;
