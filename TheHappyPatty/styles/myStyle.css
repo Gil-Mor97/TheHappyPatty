@@ -46,7 +46,7 @@ article {
 }
 
 /*===============================================================================================================*/
-/*ëôúåø ãéìåâ ìúåëï*/
+/*Ã«Ã´ÃºÃ¥Ã¸ Ã£Ã©Ã¬Ã¥Ã¢ Ã¬ÃºÃ¥Ã«Ã¯*/
 
 #skip {
     width: 100%;
@@ -83,8 +83,8 @@ article {
         }
 
 /*===============================================================================================================*/
-/*úôøéèéí*/
-/*úôøéè øàùé*/
+/*ÃºÃ´Ã¸Ã©Ã¨Ã©Ã­*/
+/*ÃºÃ´Ã¸Ã©Ã¨ Ã¸Ã Ã¹Ã©*/
 #homeLink {
     margin-top: 0%;
     width: 18%;
@@ -105,7 +105,7 @@ article {
 
 #nav1 ul {
     list-style: none;
-    /*øåçá åîøëåæ äúôøéè ìàîöò*/
+    /*Ã¸Ã¥Ã§Ã¡ Ã¥Ã®Ã¸Ã«Ã¥Ã¦ Ã¤ÃºÃ´Ã¸Ã©Ã¨ Ã¬Ã Ã®Ã¶Ã²*/
     width: 100%;
     margin: 0 auto;
     padding-bottom: 5%;
@@ -137,7 +137,7 @@ article {
     width: 130px;
     height: 20px;
     padding: 2% 0 2% 0;
-    /*àğéîöééú CSS - ùéğåé öáò áäãøâä*/
+    /*Ã Ã°Ã©Ã®Ã¶Ã©Ã©Ãº CSS - Ã¹Ã©Ã°Ã¥Ã© Ã¶Ã¡Ã² Ã¡Ã¤Ã£Ã¸Ã¢Ã¤*/
     -webkit-transition: background 0.75s ease;
     -moz-transition: background 0.75s ease;
     -ms-transition: background 0.75s ease;
@@ -215,7 +215,7 @@ article {
 
     #footer1 ul {
         list-style: none;
-        /*øåçá åîøëåæ äúôøéè ìàîöò*/
+        /*Ã¸Ã¥Ã§Ã¡ Ã¥Ã®Ã¸Ã«Ã¥Ã¦ Ã¤ÃºÃ´Ã¸Ã©Ã¨ Ã¬Ã Ã®Ã¶Ã²*/
         margin: 0 auto;
         padding-bottom: 3%;
         background-color: #8bc13fb0;
@@ -251,13 +251,13 @@ article {
 
 /*===============================================================================================================*/
 
-/*ãó äáéú*/
+/*Ã£Ã³ Ã¤Ã¡Ã©Ãº*/
 
-/*úöåâú áåøâøéí*/
+/*ÃºÃ¶Ã¥Ã¢Ãº Ã¡Ã¥Ã¸Ã¢Ã¸Ã©Ã­*/
 
 
 #tilt1 {
-    /*äèééä*/
+    /*Ã¤Ã¨Ã©Ã©Ã¤*/
     -moz-transform: rotate(6.5deg);
     -webkit-transform: rotate(6.5deg);
     -o-transform: rotate(6.5deg);
@@ -265,11 +265,11 @@ article {
     transform: rotate(6.5deg);
     margin-top: -3%;
     margin-bottom: 3%;
-    /*äâãøú äø÷ò*/
+    /*Ã¤Ã¢Ã£Ã¸Ãº Ã¤Ã¸Ã·Ã²*/
     background: url(../images/homepage/Homepage_V.png) no-repeat;
     background-size: 6%;
     background-position: 87.5%;
-    /*è÷ñè*/
+    /*Ã¨Ã·Ã±Ã¨*/
     text-align: center;
     font-family: 'Rubik';
     font-weight: bold;
@@ -363,7 +363,7 @@ article {
     margin-left: -12%;
 }
 
-/*áàğøéí*/
+/*Ã¡Ã Ã°Ã¸Ã©Ã­*/
 #banner1 {
     background: url(../images/homepage/Homepage_Banner1.png) no-repeat;
     width: 100%;
@@ -423,7 +423,7 @@ article {
 }
 
 
-/*ñ÷ùï úçúåï*/
+/*Ã±Ã·Ã¹Ã¯ ÃºÃ§ÃºÃ¥Ã¯*/
 #lowerSection {
     text-align: center;
 }
@@ -445,7 +445,7 @@ article {
         word-spacing: 3px;
     }
 
-/*úôøéè úçúåï*/
+/*ÃºÃ´Ã¸Ã©Ã¨ ÃºÃ§ÃºÃ¥Ã¯*/
 
 /*#lowerNav {
 }
@@ -546,7 +546,7 @@ article {
 
 
 /*===============================================================================================================*/
-/*ãó îôú äàúø*/
+/*Ã£Ã³ Ã®Ã´Ãº Ã¤Ã ÃºÃ¸*/
 
 #mapa h1 {
     background: url(../images/homepage/Homepage_TitleStsain.png) no-repeat;
@@ -561,7 +561,7 @@ article {
     font-family: 'Rubik';
 }
 
-/*îôú äàúø*/
+/*Ã®Ã´Ãº Ã¤Ã ÃºÃ¸*/
 
 #siteMap {
     margin: 0 5% 0 5%;
@@ -594,8 +594,8 @@ article {
 
 
 /*===============================================================================================================*/
-/*ãó àåãåú*/
-/*ëåúøú*/
+/*Ã£Ã³ Ã Ã¥Ã£Ã¥Ãº*/
+/*Ã«Ã¥ÃºÃ¸Ãº*/
 #odotHead {
     background: url(../images/homepage/Homepage_TitleStsain.png) no-repeat;
     background-size: 39%;
@@ -623,7 +623,7 @@ article {
     }
 
 
-/*úåëï àåãåú*/
+/*ÃºÃ¥Ã«Ã¯ Ã Ã¥Ã£Ã¥Ãº*/
 
 #odotContent {
     margin: 0 2% 0 2%;
@@ -656,7 +656,7 @@ article {
     }
 
 
-/*øùéîú çáøé öååú*/
+/*Ã¸Ã¹Ã©Ã®Ãº Ã§Ã¡Ã¸Ã© Ã¶Ã¥Ã¥Ãº*/
 
 
 
@@ -690,7 +690,7 @@ article {
 
 
 
-/*øùéîú ÷åøñéí*/
+/*Ã¸Ã¹Ã©Ã®Ãº Ã·Ã¥Ã¸Ã±Ã©Ã­*/
 #courses li {
     font-size: 120%;
     font-family: 'Rubik';
@@ -703,7 +703,7 @@ article {
     padding: 1%;
 }
 
-/*÷éùåø ìHIT*/
+/*Ã·Ã©Ã¹Ã¥Ã¸ Ã¬HIT*/
 
 #odotContent #telemLink {
     margin: 0 30% 0 30%;
@@ -721,7 +721,7 @@ article {
 
 
 /*===============================================================================================================*/
-/*ãó öåø ÷ùø*/
+/*Ã£Ã³ Ã¶Ã¥Ã¸ Ã·Ã¹Ã¸*/
 
 #contactUs {
     margin: 0 2% 0 2%;
@@ -769,8 +769,8 @@ article {
 
 
 /*===============================================================================================================*/
-/*ãó ÷öéöåú*/
-/*ëåúøú*/
+/*Ã£Ã³ Ã·Ã¶Ã©Ã¶Ã¥Ãº*/
+/*Ã«Ã¥ÃºÃ¸Ãº*/
 
 #pattyHead {
     background: url(../images/homepage/Homepage_TitleStsain.png) no-repeat;
@@ -801,7 +801,7 @@ article {
         top: -7px;
     }
 
-/*úåëï*/
+/*ÃºÃ¥Ã«Ã¯*/
 
 
 #pattyLobbyContent {
@@ -821,7 +821,7 @@ article {
 
 #pattyLobbyContent ul li h2 {
     font-family: 'Rubik';
-    font-weight: 500;
+    font-weight: 600;
 }
 
     .pattyLobbyTable li:first-child {
@@ -836,9 +836,7 @@ article {
     }
 
 .pattyLobbyTable li h2 {
-    font-family: 'Rubik';
     text-align: center;
-    font-weight: 700;
 }
 
     .pattyLobbyTable li {
@@ -873,8 +871,8 @@ article {
 
 
 /*===============================================================================================================*/
-/*ãó úåñôåú*/
-/*ëåúøú*/
+/*Ã£Ã³ ÃºÃ¥Ã±Ã´Ã¥Ãº*/
+/*Ã«Ã¥ÃºÃ¸Ãº*/
 
 #sideHead {
     background: url(../images/homepage/Homepage_TitleStsain.png) no-repeat;
@@ -907,7 +905,7 @@ article {
     }
 
 
-/*úåëï*/
+/*ÃºÃ¥Ã«Ã¯*/
 
 
 #nextToTheBurger h2 {
@@ -1027,8 +1025,8 @@ article {
 }
 
 /*===============================================================================================================*/
-/*ãó OFFBURGER*/
-/*ëåúøú*/
+/*Ã£Ã³ OFFBURGER*/
+/*Ã«Ã¥ÃºÃ¸Ãº*/
 
 #offBurgerHead {
     background: url(../images/OFFBurger/Res_Title.png) no-repeat;
@@ -1059,14 +1057,14 @@ article {
     }
 
 
-/*úåëï*/
+/*ÃºÃ¥Ã«Ã¯*/
 
 #recipe-pdf {
     margin: 0% 85% -7% 0;
     width: 9%;
 }
 
-/*îøëéáéí*/
+/*Ã®Ã¸Ã«Ã©Ã¡Ã©Ã­*/
 #OFFburgerContent h2, #OFFburgerContent h3 {
     font-family: 'Rubik';
 }
@@ -1149,7 +1147,7 @@ article {
     }
 
 
-/*àåôï ääëğä*/
+/*Ã Ã¥Ã´Ã¯ Ã¤Ã¤Ã«Ã°Ã¤*/
 #OFFburger-making {
     margin-top: 5%;
     background: url(../images/OFFBurger/Res_RecBG.png) no-repeat;
@@ -1189,8 +1187,8 @@ article {
 
 
 /*===============================================================================================================*/
-/*ãó ëãåøé ôéøä*/
-/*ëåúøú*/
+/*Ã£Ã³ Ã«Ã£Ã¥Ã¸Ã© Ã´Ã©Ã¸Ã¤*/
+/*Ã«Ã¥ÃºÃ¸Ãº*/
 
 #potatoBallHead {
     background: url(../images/OFFBurger/Res_Title.png) no-repeat;
@@ -1221,9 +1219,9 @@ article {
     }
 
 
-/*úåëï*/
+/*ÃºÃ¥Ã«Ã¯*/
 
-/*îøëéáéí*/
+/*Ã®Ã¸Ã«Ã©Ã¡Ã©Ã­*/
 
 
 
@@ -1313,7 +1311,7 @@ article {
         display: block;
     }
 
-/*àåôï ääëğä*/
+/*Ã Ã¥Ã´Ã¯ Ã¤Ã¤Ã«Ã°Ã¤*/
 #potatoBall-making {
     margin-top: 5%;
     background: url(../images/OFFBurger/Res_RecBG.png) no-repeat;
