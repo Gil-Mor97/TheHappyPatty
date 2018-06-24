@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"HappyPatties_atlas_", frames: [[3498,1033,569,81],[3498,0,500,582],[1861,2533,45,44],[1812,2469,117,62],[1812,2533,47,48],[2592,0,904,862],[1812,3456,903,862],[2717,3456,903,862],[2592,864,904,862],[0,4197,903,862],[2592,1728,904,862],[0,2469,904,862],[906,2469,904,862],[0,3333,904,862],[906,3333,904,862],[905,4197,903,862],[2718,2592,904,862],[1812,2592,904,862],[3498,584,493,447],[0,0,2590,2467],[0,5835,894,641],[2705,5169,945,781],[1826,5188,806,853],[2705,4320,900,847],[0,5061,929,772],[931,5188,893,777],[1810,4320,893,866]]}
+		{name:"HappyPatties_atlas_", frames: [[3498,1033,569,81],[3498,0,500,582],[1861,2533,45,44],[1812,2469,117,62],[1812,2533,47,48],[2592,0,904,862],[1812,3456,903,862],[2717,3456,903,862],[2592,864,904,862],[905,4197,903,862],[2718,2592,904,862],[0,3333,904,862],[906,3333,904,862],[2592,1728,904,862],[0,2469,904,862],[0,4197,903,862],[1812,2592,904,862],[906,2469,904,862],[3498,584,493,447],[0,0,2590,2467],[0,5835,894,641],[2705,5169,945,781],[1826,5188,806,853],[2705,4320,900,847],[0,5061,929,772],[931,5188,893,777],[1810,4320,893,866]]}
 ];
 
 
@@ -1186,7 +1186,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,45,44);
 			self.Burger0.visible = false;
 			self.burger2.visible = true;
 			self.moreInfo.text = "לחץ על ההמבורגר על מנת לראות הצעות הגשה";
-			self.HealthValuesText.text = "עדשים, בראש ממלכת הקטניות מאז ומתמיד. משמשת למרקים, קציצות, ממרחים שונים ועוד. הן קלות להכנה, נגישות, משביעות ובעלות ערך חלבון גבוה כ30%";
+			self.HealthValuesText.text = "עדשים, בראש ממלכת הקטניות מאז ומתמיד משמשת למרקים, קציצות, ממרחים שונים ועוד. הן קלות להכנה, נגישות, משביעות ובעלות ערך חלבון גבוה כ30%";
 			allNotActive();
 			isActive2 = true;
 			self.BTN2.gotoAndStop(1);	
@@ -1195,7 +1195,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,45,44);
 		function more_burger2() {
 			self.Suggestion.visible = true;
 			self.Suggestion.ServingDesc.text = "קציצת עדשים – מזינה, מפנקת ושוברת שגרה. הכל יהפוך להיות שמח יותר אם הזיווג המושלם יגיע – רוטב צ'יפוטלה שלא ישאיר יותר אדישים לעדשים";
-			self.Suggestion.ServingDescBold.text = ".אתם לא תאמינו";
+			self.Suggestion.ServingDescBold.text = ".תודו לי אחר-כך";
 			self.BTN_TEXTS.visible = false;
 		}
 		
@@ -1220,7 +1220,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,45,44);
 			self.Burger0.visible = false;
 			self.burger3.visible = true;
 			self.moreInfo.text = "לחץ על ההמבורגר על מנת לראות הצעות הגשה";
-			self.HealthValuesText.text = "הפלאפל עשוי מגרגירי חומוס, עשבי תיבול ותבלינים. זה נגיש וזול, זה טעים, זה בריא – למה אתם מחכים";
+			self.HealthValuesText.text = "הפלאפל עשוי מגרגירי חומוס, עשבי תיבול ותבלינים זה נגיש וזול, זה טעים, זה בריא – למה אתם מחכים";
 			allNotActive();
 			isActive3 = true;
 			self.BTN3.gotoAndStop(1);
@@ -1229,7 +1229,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,45,44);
 		function more_burger3() {
 			self.Suggestion.visible = true;
 			self.Suggestion.ServingDesc.text = "פלאפל – מה לא נאמר עליו? של המצרים, של הסורים, שלנו? מה זה משנה?! העיקר שתפנקו את הקציצה ברוטב טחינה ועמבה בלתי נשכח";
-			self.Suggestion.ServingDescBold.text = ".אתם לא תאמינו";
+			self.Suggestion.ServingDescBold.text = ".זה יפתיע אתכם";
 			self.BTN_TEXTS.visible = false;
 		}
 		
@@ -1254,7 +1254,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,45,44);
 			self.Burger0.visible = false;
 			self.burger4.visible = true;
 			self.moreInfo.text = "לחץ על ההמבורגר על מנת לראות הצעות הגשה";
-			self.HealthValuesText.text = "סבורים שמקור הכרובית הוא באגן הים התיכון. כרובית היא חלק ממשפחה גדולה וחשובה של צמחים שנקראים 'מצליבים', שמכילים כמויות גבוהות של ויטמין C ומומלצים לצריכה יומיומית למניעת מחלות";
+			self.HealthValuesText.text = "סבורים שמקור הכרובית הוא באגן הים התיכון כרובית היא חלק ממשפחה גדולה וחשובה של צמחים שנקראים 'מצליבים', שמכילים כמויות גבוהות של ויטמין C ומומלצים לצריכה יומיומית למניעת מחלות";
 			allNotActive();
 			isActive4 = true;
 			self.BTN4.gotoAndStop(1);
@@ -1263,7 +1263,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,45,44);
 		function more_burger4() {
 			self.Suggestion.visible = true;
 			self.Suggestion.ServingDesc.text = "קציצת כרובית – קלילה, דלת קלוריות וחסרת רגשות אשמה. היא תשמח להתכסות ברוטב טחינה-לימון שיעניק לכל העסק טעם ים תיכוני משגע";
-			self.Suggestion.ServingDescBold.text = ".אתם לא תאמינו";
+			self.Suggestion.ServingDescBold.text = ".ללקק ת'אצבעות";
 			self.BTN_TEXTS.visible = false;
 		}
 		
@@ -1288,7 +1288,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,45,44);
 			self.Burger0.visible = false;
 			self.burger5.visible = true;
 			self.moreInfo.text = "לחץ על ההמבורגר על מנת לראות הצעות הגשה";
-			self.HealthValuesText.text = "הסויה, שמקורה בסין, היא בסיס לאינספור מוצרי מזון ברחבי העולם – חלב סויה, רוטב סויה, אדממה, טופו, טמפה, והרשימה עוד ארוכה. הסויה עשירה בויטמינים ומינרלים שחשובים להתפתחות תקינה. Enjoy your soy!";
+			self.HealthValuesText.text = "הסויה, שמקורה בסין, היא בסיס לאינספור מוצרי מזון ברחבי העולם – חלב סויה, רוטב סויה, אדממה, טופו טמפה, והרשימה עוד ארוכה. הסויה עשירה בויטמינים ומינרלים שחשובים להתפתחות תקינה. Enjoy your soy!";
 			allNotActive();
 			isActive5 = true;
 			self.BTN5.gotoAndStop(1);
@@ -1297,7 +1297,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,45,44);
 		function more_burger5() {
 			self.Suggestion.visible = true;
 			self.Suggestion.ServingDesc.text = "קציצת הסויה תספק לכם טעם מעודן ורוטב ברביקיו ישמח לנוח עליה בדרך לחוויה בביס אחד";
-			self.Suggestion.ServingDescBold.text = ".אתם לא תאמינו";
+			self.Suggestion.ServingDescBold.text = ".חוויה אסיאתית";
 			self.BTN_TEXTS.visible = false;
 		}
 		
@@ -1331,7 +1331,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,45,44);
 		function more_burger6() {
 			self.Suggestion.visible = true;
 			self.Suggestion.ServingDesc.text = "פטריה שהתחפשה לקציצה – אפשר לצפות או למלא אותה באינספור חומרי גלם ולשמור על העסיסיות";
-			self.Suggestion.ServingDescBold.text = ".אתם לא תאמינו";
+			self.Suggestion.ServingDescBold.text = ".חוויה אחרת";
 			self.BTN_TEXTS.visible = false;
 		}
 		
@@ -1365,7 +1365,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,45,44);
 		function more_burger7() {
 			self.Suggestion.visible = true;
 			self.Suggestion.ServingDesc.text = "קציצת שעועית? ועוד איך! טעם חזק ומקסיקני שמומלץ עם רוטב צ'ילי הבנרו שיגרום גם למעריצי החריף לרוץ במעגלים";
-			self.Suggestion.ServingDescBold.text = ".אתם לא תאמינו";
+			self.Suggestion.ServingDescBold.text = ".המקסיקני";
 			self.BTN_TEXTS.visible = false;
 		}
 		
@@ -1390,7 +1390,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,45,44);
 			self.Burger0.visible = false;
 			self.burger8.visible = true;
 			self.moreInfo.text = "לחץ על ההמבורגר על מנת לראות הצעות הגשה";
-			self.HealthValuesText.text = "הפטריות הן מקור מעולה לויטמינים ומינרלים רבים, דלות מאוד בקלוריות ובעלות טעם יחודי. שיטות הגידול המתקדמות כיום הופכות את הפטריות לחומר גלם ידידותי מאוד לסביבה – הן לא דורשות הרבה קרקע ומים ונחשבות ל'חקלאות הייטק'";
+			self.HealthValuesText.text = "הפטריות הן מקור מעולה לויטמינים ומינרלים רבים דלות מאוד בקלוריות ובעלות טעם יחודי. שיטות הגידול המתקדמות כיום הופכות את הפטריות לחומר גלם ידידותי מאוד לסביבה – הן לא דורשות הרבה קרקע ומים ונחשבות ל'חקלאות הייטק'";
 			allNotActive();
 			isActive8 = true;
 			self.BTN8.gotoAndStop(1);
@@ -1399,7 +1399,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,45,44);
 		function more_burger8() {
 			self.Suggestion.visible = true;
 			self.Suggestion.ServingDesc.text = "קציצת פטריות עסיסית ביותר שתגרום גם לאניני הטעם להתבלבל. נהדרת עם קטשופ וחרדל";
-			self.Suggestion.ServingDescBold.text = ".אתם לא תאמינו";
+			self.Suggestion.ServingDescBold.text = ".כל כך פשוט, כל כך טעים";
 			self.BTN_TEXTS.visible = false;
 		}
 		
@@ -1433,7 +1433,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,45,44);
 		function more_burger9() {
 			self.Suggestion.visible = true;
 			self.Suggestion.ServingDesc.text = "קציצת הסייטן העסיסית והמשכנעת מומלצת עם הרטבים המסורתיים  קטשופ ומיונז טבעוני, בלחמניה לבנה ואוורירית. הולך מעולה עם תוספות של בצל סגול חסה ועגבניה";
-			self.Suggestion.ServingDescBold.text = ".אתם לא תאמינו";
+			self.Suggestion.ServingDescBold.text = ".הכי עסיסי";
 			self.BTN_TEXTS.visible = false;
 		}
 		
@@ -1467,8 +1467,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,45,44);
 		
 		function more_burger10() {
 			self.Suggestion.visible = true;
-			self.Suggestion.ServingDesc.text = "כוסמת - על אמת! חומר גלם גמיש וזול, ללא גלוטן. האפשרויות ליצור ממנו הן בלתי מוגבלות. נהדר עם ממרח לימונים פיקנטי";
-			self.Suggestion.ServingDescBold.text = ".אתם לא תאמינו";
+			self.Suggestion.ServingDesc.text = "כוסמת - על אמת! חומר גלם גמיש וזול ללא גלוטן. האפשרויות ליצור ממנו הן בלתי מוגבלות. נהדר עם ממרח לימונים פיקנטי";
+			self.Suggestion.ServingDescBold.text = "!מנה מנצחת";
 			self.BTN_TEXTS.visible = false;
 		}
 		
@@ -1704,7 +1704,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/HappyPatties_atlas_.png?1529759934838", id:"HappyPatties_atlas_"}
+		{src:"images/HappyPatties_atlas_.png?1529829635795", id:"HappyPatties_atlas_"}
 	],
 	preloads: []
 };
